@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/respNav.css">
+    <link rel="stylesheet" href="./CSS/respIndex.css">
+
+    <title>Drihy | Home</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm  bg-white p-3">
+            <a class="navbar-brand icH" href="#"><img class="navbar-brand" src="./assets/logodrihy.jpg"
+                    style="height: 74px; width: auto;" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="./produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cad.html">
+                            <span class="link-icon icH">
+                                <img style="height: 40px;" src="./assets/person-circle.svg" alt="Ícone">
+                                <!-- Substitua 'icone.svg' pelo caminho do seu ícone SVG -->
+                            </span>
+                            <span class="link-text">Login</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid p-0 mb-5 border-bottom" id="secao1"></div>
+
+    <div class="container-fluid  p-5" id="secao2">
+        <div class="row  m-0 p-5 align-items-center">
+            <div class="col-lg-4 col-md-0 ocult">
+                <img style="height: 400px;" src="./assets/minas.jpeg" alt="">
+            </div>
+            <div id="sc2txt" class="col-lg-8 col-md-12">
+                <h2 class="display-1">Salve!</h2>
+                <p>Bem-vindo ao mundo da moda com Drihy! Somos uma marca de roupas apaixonada por estilo,
+                    qualidade e expressão pessoal. Nós acreditamos que cada pessoa é única e merece se destacar
+                    através de suas roupas.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-5 row my-5 mb-5 " id="secao3">
+        <div class="d-flex align-items-center col-lg-12 col-md-12 col-xl-7">
+            <div  class="col-md-3 col-1">
+                <img class="card_img"  id="card-gorro" src="./assets/Gorro.png" alt="">
+            </div>
+            <div  class="col-md-3 col-3">
+                <img class="card_img"  id="card-calca" src="./assets/calca1.png" alt="">
+            </div>
+            <div  class="col-md-3 col-3">
+                <img class="card_img"  id="card-camisa" src="./assets/camisapretadrihy.jpeg" alt="">
+            </div>
+            <div  class="col-md-3 col-3">
+                <img class="card_img"  id="card-short" src="./assets/bermudapreta.png" alt="">
+            </div>
+        </div>
+
+        <div class="col-md-12 col-lg-12 col-xl-5 mb-5" id="cont_sc3-txt">
+            <p>
+            <h2 class="display-4">Nosso produtos</h2>
+            <p> Nossos materiais de alta qualidade proporcionam conforto e durabilidade, garantindo que você se
+                sinta bem em todas as ocasiões. </p>
+            <a href="./produtos.html"><button class="btn btn-outline-dark">Produtos</button></a>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5" id="secao4">
+        <div class="row">
+            <div>
+                <img class="d-flex align-items-center justify-content-center mb-3 d-xl-none d-lg-none" id="sc4_img"
+                    src="./assets/linha_dhry.png" alt="">
+            </div>
+            
+            <div class="mt-5 p-5 bg-body-tertiary">
+                <h2 class="display-5">Sobre a marca</h2>
+                <p>
+                    A Drihy é uma marca de moda inovadora, que busca criar peças únicas e fora do comum. Suas
+                    coleções refletem as últimas tendências da moda, combinando elementos contemporâneos com
+                    originalidade, para que os clientes se sintam confiantes e autênticos em suas roupas. A marca
+                    tem um compromisso firme com a qualidade, utilizando materiais de alta qualidade e trabalhando
+                    com artesãos habilidosos para criar peças duráveis e confortáveis, com atenção aos detalhes em
+                    cada etapa do processo de produção.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex align-items-center p-3 row">
+        <div class="col-xl-7 bg-body-tertiary mx-2 p-3">
+            <h2 class="display-5">Assine para receber as novidades</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome</label>
+                    <input type="email" class="form-control" id="name">
+                </div>
+                <div class=" mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-outline-dark w-100">Submit</button>
+            </form>
+        </div>
+        <div class="col-xl-4 d-md-none d-lg-inline p-5">
+            <img style="height: 200px;" class="d-md-none d-lg-inline d-none" src="./assets/logodrihy.jpg" alt="">
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div style="background-color: #000;" class="container-fluid mt-5 text-light p-5">
+            <div class="row ">
+                <div class="col-md-6 col-lg-6 d-flex align-items-center justify-content-center p-3">
+                    <img src="./assets/logoinversa.jpg" alt="Logo" class="footer-logo">
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <ul class="footer-list2 d-flex justify-content-around p-2">
+                        <li> <a href=""><img class="sc-icon" src="./assets/envelope-solid.svg" alt=""></a>
+                        </li>
+                        <li> <a href=""><img class="sc-icon" src="./assets/whatsapp-brands.svg" alt=""></a>
+                        </li>
+                        <li><a href=""><img class="sc-icon" src="./assets/instagram-brands.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center bg-black" id="copy">
+            Desenvolvido por João Pedro Cabral &copy; Todos direitos reservados | Drihy
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

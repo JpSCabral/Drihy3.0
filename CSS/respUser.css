@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: 0;
+    background-color: none;
+}
+
+input:focus {
+    outline: 0;
+}
+a{
+    color: #000;
+}
+.linkAs:hover{
+    background-color: #252525;
+    color: #fff;
+}
